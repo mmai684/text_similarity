@@ -1,6 +1,6 @@
 # text_similarity
 
-This is a python application that compares the similarity of two strings.
+This is a python 3 application that compares the similarity of two strings. It is built into a flask application and contained in a docker container.
 
 Similarity is calculated by 
 
@@ -26,7 +26,7 @@ How to run the application:
 	
 	b) docker run -p 5000:5000 text-sim
 	
-4) The flask application should be running in the container now. I've created a script that will post to the web application and return a similarity score. Navigate back to the cloned directory and find flask_sim_api_call.py, edit with idle. *Note this is what I used to test it, other tools can be used.
+4) The flask application should be running in the container now. I've created a script that will post to the web application and return a similarity score. Navigate back to the cloned directory and find flask_sim_api_call.py, edit with idle. *Note this is what I used to test it, other tools can be used. 
 5) Post takes 3 parameters, which can be found in the script. Summary below
 
 	a) string1 - the first string
